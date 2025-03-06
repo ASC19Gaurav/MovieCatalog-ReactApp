@@ -1,0 +1,28 @@
+<app-navbar></app-navbar>
+<h1 style="text-align: center;">All Tickets</h1>
+
+
+
+<div class="expansionPanel">    
+    <mat-accordion>
+
+        <mat-expansion-panel class="exp" *ngFor="let ticket of tickets">
+            <mat-expansion-panel-header>
+              <mat-panel-title>{{ ticket.name }}</mat-panel-title>
+              <mat-panel-description>
+                {{ ticket.matchName }} 
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>Age: {{ ticket.age}}</p>
+            <p>Date: {{ ticket.date }}</p>
+            <p>Quantity: {{ ticket.quantity }}</p>
+            <div style="display: flex;justify-content: end;">
+               
+                
+            </div>
+            
+          </mat-expansion-panel>
+          
+    </mat-accordion>
+
+</div>

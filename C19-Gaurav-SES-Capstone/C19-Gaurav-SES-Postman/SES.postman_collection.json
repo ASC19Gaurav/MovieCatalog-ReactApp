@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "1477981b-12ba-4600-80c6-89be9a5ed350",
+		"name": "SES",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39277868"
+	},
+	"item": [
+		{
+			"name": "Matches",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/matches",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"matches"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Matches",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/matches/M0048",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"matches",
+						"M0048"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"matchName\": \"Clash\",\r\n        \"matchDate\": \"2024-12-18\",\r\n        \"matchLocation\": \"Chennai\",\r\n        \"team1Name\": \"Real Madrid\",\r\n        \"team2Name\": \"Liverpool FC\",\r\n        \"tournamentName\": \"FC Cup\"\r\n}\r\n    ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/matches/M0048",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"matches",
+						"M0048"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

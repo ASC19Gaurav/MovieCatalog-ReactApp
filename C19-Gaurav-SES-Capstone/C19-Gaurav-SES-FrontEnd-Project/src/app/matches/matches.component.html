@@ -1,0 +1,44 @@
+<app-navbar></app-navbar>
+<h1 style="text-align: center;">Matches</h1>
+
+<div style="display: flex;margin-left: 30px; justify-content: center;align-items: center; gap: 10px;">
+    <input class="search"
+      type="text" 
+      [(ngModel)]="searchQuery" 
+      placeholder="Search..." 
+      style="padding: 5px; font-size: 16px;"
+    />
+    <button (click)="onSearch()" style="padding: 5px 10px; font-size: 16px;">
+      Search
+    </button>
+    <button (click)="getTournamentMatches()" style="padding: 5px 10px; font-size: 16px;">
+        View All Match
+      </button>
+  </div>
+
+<div class="expansionPanel">    
+    <mat-accordion>
+
+        <mat-expansion-panel class="exp" *ngFor="let match of matchess">
+            <mat-expansion-panel-header>
+              <mat-panel-title>{{ match.matchName }}</mat-panel-title>
+              <mat-panel-description>
+                {{ match.team1Name }} vs {{ match.team2Name }}
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>Date: {{ match.matchDate }}</p>
+            <p>Location: {{ match.matchLocation }}</p>
+            <p>Tournament: {{ match.tournamentName }}</p>
+            <div style="display: flex;justify-content: end;">
+                <button mat-button (click)="fullDetails(match.matchName,match.team1Name,match.team2Name)" >VIEW FULL DETAILS</button> 
+                <button mat-button matTooltip="Update Match" (click)="updateMatch(match.id)"
+                ><mat-icon style="color: red;">update</mat-icon></button>
+                <button mat-button matTooltip="Delete Match" (click)="deleteMatch(match.id)"
+                ><mat-icon style="color: red;">delete</mat-icon></button>
+            </div>
+            
+          </mat-expansion-panel>
+          
+    </mat-accordion>
+
+</div>

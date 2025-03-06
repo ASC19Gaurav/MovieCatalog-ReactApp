@@ -1,0 +1,53 @@
+<app-navbar></app-navbar>
+<h1 style="display: flex;justify-content: center;text-align: center;">Book Tickets</h1>
+<form [formGroup]="ticketForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="name">Name:</label>
+      <input id="name" formControlName="name" />
+      <div *ngIf="ticketForm.get('name')?.invalid && ticketForm.get('name')?.touched">
+        <small *ngIf="ticketForm.get('name')?.errors?.['required']">Name is required.</small>
+        <small *ngIf="ticketForm.get('name')?.errors?.['pattern']">Only letters are allowed.</small>
+      </div>
+    </div>
+  
+    <div>
+      <label for="age">Age:</label>
+      <input id="age" type="number" formControlName="age" />
+      <div *ngIf="ticketForm.get('age')?.invalid && ticketForm.get('age')?.touched">
+        <small *ngIf="ticketForm.get('age')?.errors?.['required']">Age is required.</small>
+        <small *ngIf="ticketForm.get('age')?.errors?.['min']">Age must be at least 18.</small>
+        <small *ngIf="ticketForm.get('age')?.errors?.['max']">Age must be less than 100.</small>
+      </div>
+    </div>
+  
+    <div>
+      <label for="matchName">Match:</label>
+      <select id="matchName" formControlName="matchName">
+        <option value="" disabled>Select an option</option>
+        <option *ngFor="let option of matchOptions" [value]="option">{{ option }}</option>
+      </select>
+      <div *ngIf="ticketForm.get('matchName')?.invalid && ticketForm.get('matchName')?.touched">
+        <small *ngIf="ticketForm.get('matchName')?.errors?.['required']">Match is required.</small>
+      </div>
+    </div>
+  
+    <div>
+      <label for="quantity">Quantity:</label>
+      <input id="quantity" type="number" formControlName="quantity" />
+      <div *ngIf="ticketForm.get('quantity')?.invalid && ticketForm.get('quantity')?.touched">
+        <small *ngIf="ticketForm.get('quantity')?.errors?.['required']">Quantity is required.</small>
+        <small *ngIf="ticketForm.get('quantity')?.errors?.['min']">Quantity must be greater than 0.</small>
+      </div>
+    </div>
+  
+    <div>
+      <label for="date">Date:</label>
+      <input id="date" type="date" formControlName="date" />
+      <div *ngIf="ticketForm.get('date')?.invalid && ticketForm.get('date')?.touched">
+        <small *ngIf="ticketForm.get('date')?.errors?.['required']">Date is required.</small>
+      </div>
+    </div>
+  
+    <button type="submit" [disabled]="ticketForm.invalid">Submit</button>
+  </form>
+  

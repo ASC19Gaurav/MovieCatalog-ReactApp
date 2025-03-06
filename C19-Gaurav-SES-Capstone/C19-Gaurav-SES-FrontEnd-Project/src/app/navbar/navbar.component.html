@@ -1,0 +1,41 @@
+<div class="navbar">
+  <mat-toolbar>
+    <button mat-icon-button (click)="drawer.toggle()" aria-label="Toggle sidenav">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span style="cursor: pointer;" routerLink="/home">Sporting Event System</span>
+    <span class="example-spacer"></span>
+
+    <a style="margin-left: 40rpx;" routerLink="/viewAllMatches">View all Matches</a>
+    <a routerLink="/bookTicket">Book Tickets</a>
+    <span class="example-spacer"></span>
+    <h4>{{ loggedInUserName }}</h4>
+    
+    <button mat-icon-button aria-label="Profile" [matMenuTriggerFor]="belowMenu"><mat-icon>account_circle</mat-icon></button>
+<mat-menu #belowMenu="matMenu" yPosition="below">
+  <button routerLink="/viewAdmins" mat-menu-item>View All Admin</button>
+  <button mat-menu-item (click)="LogOut()">LogOut</button>
+</mat-menu>
+    <button mat-icon-button aria-label="Share">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+
+ 
+  
+   
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+      <mat-list >
+        <mat-list-item class="navbar-list"> <a routerLink="/home">Home</a> </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item class="navbar-list"><a routerLink="/tickets">Ticket</a></mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item class="navbar-list"><a routerLink="/iewAllMatches">Matches</a></mat-list-item>
+      </mat-list>
+      
+     
+    </mat-drawer>
+
+
+  
+</div>

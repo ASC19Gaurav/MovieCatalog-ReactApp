@@ -1,0 +1,55 @@
+<app-navbar></app-navbar>
+
+<button class="crud" (click)="toggleCheckboxes()">Delete</button>
+
+<button class="crud" *ngIf="showCheckboxes" (click)="deleteSelectedUsers()" 
+style="background-color: rgb(255, 25, 71);">Confirm Delete</button>
+
+
+<button class="crud" (click)="search()">Search</button>
+<select style="width: 20%;" *ngIf="showSearchbox"  [(ngModel)]="searchproperty" id="searchoption">
+    <option value="title">Title</option>
+    <option value="status">Status</option>
+    <option value="priorty">Priorty</option>
+    <option value="assignee">Assignee</option>
+    <option value="description">Description</option>
+</select>
+<input *ngIf="showSearchbox"  id="search" name="search"  [(ngModel)]="searchvalue"  required>
+<button (click)=search() *ngIf="showSearchbox">Search</button>
+
+
+<button class="crud" routerLink="/register">Add Issue</button>
+
+<button class="crud" routerLink="/update"> Update</button>
+<br><br>
+
+
+
+
+<table>
+    <tr>
+        <th *ngIf="showCheckboxes">Select</th>
+        <th>Issue Id</th>
+        <th>Title</th>
+        <th>Priorty</th>
+        <th>Status</th>
+        <th>Assignee</th>
+        <th>Date</th>
+        <th>Description</th>
+        
+    </tr>
+    <tr *ngFor = "let issue of issues">
+        <td *ngIf="showCheckboxes">
+            <input type="checkbox" #checkboxRef (change)="onSelected(issue.id, checkboxRef.checked)">
+    
+          </td>
+    <td>{{issue.id}}</td>
+    <td>{{issue.title}}</td>
+    <td>{{issue.priorty}}</td>
+    <td>{{issue.status}}</td>
+    <td>{{issue.assignee}}</td>
+    <td>{{issue.date}}</td>
+    <td>{{issue.description}}</td>
+    
+</tr>
+</table>

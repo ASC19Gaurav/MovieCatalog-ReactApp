@@ -1,0 +1,15 @@
+@if( loading ) {
+<app-loading-spinner variant="success"></app-loading-spinner>
+} @else if( error !== null ) {
+<app-error-alert [error]="error"></app-error-alert>
+} @else {
+<app-pagination [page]="page" (pageChange)="changePage($event)"></app-pagination>
+
+<div class="row">
+  @for( workshop of workshops; track workshop.id ) {
+  <div class="col-12 col-md-4 my-3 d-flex">
+    <app-item [workshop]="workshop"></app-item>
+  </div>
+  }
+</div>
+}

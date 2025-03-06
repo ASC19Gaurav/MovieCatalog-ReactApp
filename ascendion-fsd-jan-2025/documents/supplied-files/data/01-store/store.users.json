@@ -1,0 +1,113 @@
+[
+    {
+        "_id": {
+            "$oid": "4c4b1476238d3b4dd5000001"
+        },
+        "username": "johndoe",
+        "email": "johndoe@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "hashed_password": "bd1cfa194c3a603e7186780824b04419",
+        "addresses": [
+            {
+                "name": "home",
+                "street": "500 Elm Street",
+                "city": "New York",
+                "state": "NY",
+                "zip": 11215
+            },
+            {
+                "name": "work",
+                "street": "1 E. 23rd Street",
+                "city": "San Francisco",
+                "state": "CA",
+                "zip": 10010
+            }
+        ],
+        "payment_methods": [
+            {
+                "name": "VISA",
+                "last_four": 2127,
+                "crypted_number": "43f6ba1dfda6b8106dc7",
+                "expiration_date": {
+                    "$date": "2016-05-01T00:00:00.000-0700"
+                }
+            }
+        ]
+    },
+
+    {
+        "_id": {
+            "$oid": "4c4b1476238d3b4dd5000002"
+        },
+        "username": "janedoe",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "addresses": [
+            {
+                "name": "home",
+                "street": "1 E. 23rd Street",
+                "city": "San Francisco",
+                "state": "CA",
+                "zip": 10010
+            },
+            {
+                "name": "work",
+                "street": "500 Elm Street",
+                "city": "New York",
+                "state": "NY",
+                "zip": 11215
+            }
+        ]
+    },
+
+    {
+        "_id": {
+            "$oid": "4c4b1476238d3b4dd5000003"
+        },
+        "username": "marksmith",
+        "first_name": "Mark",
+        "last_name": "Smith",
+        "addresses": [
+            {
+                "name": "home",
+                "street": "400 Elm Street",
+                "city": "New York",
+                "state": "NY",
+                "zip": 11215
+            },
+            {
+                "name": "work",
+                "street": "2 Rosedale, 15th Street",
+                "city": "Austin",
+                "state": "TX",
+                "zip": 10010
+            },
+            {
+                "name": "work",
+                "street": "3 Rosedale, 15th Street",
+                "city": "Austin",
+                "state": "TX",
+                "zip": 10010
+            }
+        ]
+    },
+
+    {
+        "_id": {
+            "$oid": "4c4b1476238d3b4dd5000004"
+        },
+        "username": "markspencer",
+        "first_name": "Mark",
+        "last_name": "Spencer"
+    },
+
+    {
+        "_id": {
+            "$oid": "4c4b1476238d3b4dd5000005"
+        },
+        "username": "sydbarrett",
+        "first_name": "Syd",
+        "last_name": "Barrett"
+    }
+]

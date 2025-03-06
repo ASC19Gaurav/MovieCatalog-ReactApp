@@ -1,0 +1,16 @@
+<!--
+ @if( isOpen ) {
+<ngb-alert type="info" (closed)="toggle()">Hello</ngb-alert>
+}
+-->
+<ngb-alert type="info" (closed)="toggle()" *ngIf="isOpen">
+  Note that this app is built using Angular 18. The APIs in Angular <= 16 are
+  significantly different.
+</ngb-alert>
+
+<app-menu></app-menu>
+
+<div class="container my-4">
+  <!-- This is a space for the router to show the component based on the URL -->
+  <router-outlet></router-outlet>
+</div>

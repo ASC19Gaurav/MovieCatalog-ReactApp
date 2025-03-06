@@ -1,0 +1,14 @@
+{
+    "users": [
+      {
+        "name": "Rohit",
+        "age": 28,
+        "salary": 50000
+      },
+      {
+        "name": "Gaurav",
+        "age": 32,
+        "salary": 60000
+      }
+    ]
+  }

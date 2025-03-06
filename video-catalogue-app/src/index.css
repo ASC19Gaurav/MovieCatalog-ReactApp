@@ -4,10 +4,30 @@
   gap: 20px;
 }
 
+/* Responsive Table */
 .movie-table {
   width: 100%;
   margin-bottom: 20px;
   border-collapse: collapse;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
 .movie-table td {
@@ -23,16 +43,17 @@
   width: 100px;
 }
 
-/* Search bar */
+/* Search Bar */
 .search-bar {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 20px;
   max-width: 600px;
   margin-left: auto;
-  margin-right: auto; /* Centers the search bar horizontally */
-  justify-content: center; /* Centers child elements inside */
-  align-items: center; /* Aligns elements vertically */
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-bar input {
@@ -55,10 +76,12 @@
 .search-bar button:hover {
   background-color: #0056b3;
 }
+
+/* Pagination */
 .pagination-container {
-  width: 20px;
   display: flex;
- 
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 16px;
 }
 
@@ -94,11 +117,14 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+/* Filters */
 .filter-container {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 10px 0;
+  flex-wrap: wrap;
+  justify-content: center;
   font-family: Arial, sans-serif;
 }
 
@@ -110,7 +136,6 @@
 .filter-dropdown {
   padding: 8px 12px;
   width: 200px;
-  margin-right: 20px;
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -128,29 +153,87 @@
   border-color: #0056b3;
   box-shadow: 0 0 5px rgba(0, 91, 187, 0.5);
 }
+
+/* Pagination and Filter Container */
 .pagination-filter-container {
   display: flex;
-  justify-content: space-between; /* Pushes Pagination to left and Filter to right */
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   margin: 15px 0;
   padding: 0 10px;
 }
-h1{
+
+/* Center the heading */
+h1 {
   text-align: center;
 }
-.Loading{
+
+/* Loading and Error Messages */
+.Loading {
   background-color: skyblue;
-  color:rgb(0, 42, 78);
-  
+  color: rgb(0, 42, 78);
   border-radius: 2px;
-  
   padding: 15px;
+  text-align: center;
 }
-.eror{
+
+.eror {
   background-color: rgb(242, 72, 72);
-  color:rgb(21, 21, 21);
-  
+  color: rgb(21, 21, 21);
   border-radius: 2px;
-  
   padding: 15px;
+  text-align: center;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .movie-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .search-bar {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .search-bar input {
+    width: 100%;
+  }
+
+  .pagination-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .filter-container {
+    justify-content: center;
+  }
+
+  .pagination-filter-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movie-table img {
+    width: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .movie-list {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .search-bar button {
+    width: 100%;
+  }
+
+  .filter-dropdown {
+    width: 100%;
+  }
+
+  .movie-table img {
+    width: 60px;
+  }
 }

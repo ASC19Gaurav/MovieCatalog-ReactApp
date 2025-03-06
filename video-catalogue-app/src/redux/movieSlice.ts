@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_KEY = "e5fe2594"; // Replace with your OMDB API key
+const API_KEY = "e5fe2594"; 
 
 export const fetchMovies = createAsyncThunk(
   "movies/fetchMovies",

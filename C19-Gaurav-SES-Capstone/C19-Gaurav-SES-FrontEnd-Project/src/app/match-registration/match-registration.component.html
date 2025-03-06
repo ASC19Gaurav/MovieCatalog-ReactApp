@@ -1,0 +1,142 @@
+<app-navbar>  
+</app-navbar>
+
+
+  <mat-stepper class="matSteper" style="background: none;" [linear]="true" #stepper>
+    <mat-step [stepControl]="matchForm">
+        <div class="match-registration-form">
+            <h1 style="display: flex;justify-content: center;text-align: center;">Match Registration</h1>
+            <form [formGroup]="matchForm"   >
+              
+             
+          
+               
+              <div>
+                <label for="matchName">Match Name:</label>
+                <input id="matchName" formControlName="matchName" type="text" />
+                <div *ngIf="matchForm.get('matchName')?.touched && matchForm.get('matchName')?.invalid">
+                  <small *ngIf="matchForm.get('matchName')?.errors?.['required']">Match Name is required.</small>
+                </div>
+              </div>
+          
+              
+              <div>
+                <label for="matchDate">Match Date:</label>
+                <input id="matchDate" formControlName="matchDate" type="date" />
+                <div *ngIf="matchForm.get('matchDate')?.touched && matchForm.get('matchDate')?.invalid">
+                  <small *ngIf="matchForm.get('matchDate')?.errors?.['required']">Match Date is required.</small>
+                </div>
+              </div>
+          
+              
+              <div>
+                <label for="matchLocation">Match Location:</label>
+                <input id="matchLocation" formControlName="matchLocation" type="text" />
+                <div *ngIf="matchForm.get('matchLocation')?.touched && matchForm.get('matchLocation')?.invalid">
+                  <small *ngIf="matchForm.get('matchLocation')?.errors?.['required']">Match Location is required.</small>
+                </div>
+              </div>
+          
+              
+              <div>
+                <label for="team1Name">Team 1 Name:</label>
+                <input id="team1Name" formControlName="team1Name" type="text" />
+                <div *ngIf="matchForm.get('team1Name')?.touched && matchForm.get('team1Name')?.invalid">
+                  <small *ngIf="matchForm.get('team1Name')?.errors?.['required']">Team 1 Name is required.</small>
+                </div>
+              </div>
+          
+              
+              <div>
+                <label for="team2Name">Team 2 Name:</label>
+                <input id="team2Name" formControlName="team2Name" type="text" />
+                <div *ngIf="matchForm.get('team2Name')?.touched && matchForm.get('team2Name')?.invalid">
+                  <small *ngIf="matchForm.get('team2Name')?.errors?.['required']">Team 2 Name is required.</small>
+                </div>
+              </div>
+          
+              
+              <div>
+                <label for="tournamentName">Tournament Name:</label>
+                <input id="tournamentName" formControlName="tournamentName" type="text" />
+                <div *ngIf="matchForm.get('tournamentName')?.touched && matchForm.get('tournamentName')?.invalid">
+                  <small *ngIf="matchForm.get('tournamentName')?.errors?.['required']">Tournament Name is required.</small>
+                </div>
+              </div>
+          
+              
+              <button matStepperNext type="submit" >Register Match</button>
+            </form>
+          
+          </div>
+    </mat-step>
+    <mat-step>
+      <div class="form-container">
+        <form [formGroup]="playerForm" (ngSubmit)="onPlayerSubmit()">
+          <h1 style="display: flex;justify-content: center;text-align: center;">ADD PLAYERS</h1>
+          
+          <div class="form-group">
+            <label for="playerName">Player Name:</label>
+            <input 
+              type="text" 
+              id="playerName" 
+              formControlName="playerName" 
+              placeholder="Enter Player Name"
+            />
+            <div *ngIf="playerForm.get('playerName')?.invalid && playerForm.get('playerName')?.touched" class="error">
+              <small *ngIf="playerForm.get('playerName')?.errors?.['required']">Player Name is required.</small>
+            </div>
+          </div>
+      
+          
+          <div class="form-group">
+            <label for="playerAge">Player Age:</label>
+            <input 
+              type="number" 
+              id="playerAge" 
+              formControlName="playerAge" 
+              placeholder="Enter Player Age"
+            />
+            <div *ngIf="playerForm.get('playerAge')?.invalid && playerForm.get('playerAge')?.touched" class="error">
+              <small *ngIf="playerForm.get('playerAge')?.errors?.['required']">Valid Player Age is required.</small>
+            </div>
+          </div>
+      
+          
+          <div class="form-group">
+            <label for="teamName">Team Name:</label>
+            <input 
+              type="text" 
+              id="teamName" 
+              formControlName="teamName" 
+              placeholder="Enter Team Name"
+            />
+            <div *ngIf="playerForm.get('teamName')?.invalid && playerForm.get('teamName')?.touched" class="error">
+              <small *ngIf="playerForm.get('teamName')?.errors?.['required']">Team Name is required.</small>
+            </div>
+          </div>
+      
+          
+          <div class="form-group">
+            <label for="phoneNo">Phone Number:</label>
+            <input 
+              type="tel" 
+              id="phoneNo" 
+              formControlName="phoneNo" 
+              placeholder="Enter Phone Number"
+            />
+            <div *ngIf="playerForm.get('phoneNo')?.invalid && playerForm.get('phoneNo')?.touched" class="error">
+              <small *ngIf="playerForm.get('phoneNo')?.errors?.['required']">Phone Number must be a valid 10-digit number.</small>
+            </div>
+          </div>
+          <button type="submit" style="margin-bottom: 5px;" [disabled]="playerForm.invalid">AddMore</button>
+          <button type="submit" (click)="addMore()">Submit</button>
+         
+        </form>
+      </div>
+      
+    </mat-step>
+    
+    
+  </mat-stepper>
+  

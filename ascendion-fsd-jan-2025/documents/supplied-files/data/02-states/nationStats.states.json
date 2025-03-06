@@ -1,0 +1,60 @@
+[
+    {
+        "state": "Karnataka",
+        "capital": "Bangalore",
+        "num_lakes": 128,
+        "highest_rainfall": [
+            {
+                "date": "August 1, 2010",
+                "amount": 30
+            },
+            {
+                "date": "July 10, 1954",
+                "amount": 27.5
+            },
+            {
+                "date": "October 21, 1990",
+                "amount": 26.8
+            }
+        ],
+        "pollution_levels": {
+            "no2": {
+                "min": 3500,
+                "max": 8000
+            }
+        }
+    },
+    {
+        "state": "Tamil Nadu",
+        "capital": "Chennai",
+        "num_lakes": 21,
+        "pollution_levels": {
+            "no2": {
+                "min": 4500,
+                "max": 10000
+            }
+        }
+    },
+    {
+        "state": "Telangana",
+        "capital": "Hyderabad",
+        "num_lakes": 28,
+        "pollution_levels": {
+            "no2": {
+                "min": 3500,
+                "max": 8500
+            }
+        }
+    },
+    {
+        "state": "Kerala",
+        "capital": "Trivandrum",
+        "num_lakes": 75,
+        "pollution_levels": {
+            "no2": {
+                "min": 500,
+                "max": 750
+            }
+        }
+    }
+]

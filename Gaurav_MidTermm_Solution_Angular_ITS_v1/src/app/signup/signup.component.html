@@ -1,0 +1,27 @@
+
+<div class="container">
+  <h1 style="color: black;">Sign Up</h1>
+    <form #adminForm="ngForm" (ngSubmit)="onSubmit(adminForm)">
+      
+  
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required [(ngModel)]="userModel.name" />
+  
+      <label for="age">Choose an age:</label>
+      <input type="number" name="age" required [(ngModel)]="userModel.age" />
+  
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required [(ngModel)]="userModel.phone" />
+  
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required [(ngModel)]="userModel.email" />
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required [(ngModel)]="userModel.password" />
+  
+      <button type="submit" >Sign UP!!</button>
+      <br />
+      <button type="button" (click)="adminForm.reset(); resetModel()">Reset</button>
+    </form>
+  </div>
+  

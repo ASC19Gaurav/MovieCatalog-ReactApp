@@ -1,0 +1,100 @@
+
+<div class="container">
+    <mat-tab-group >
+        <mat-tab label="Login"> 
+            <h3 style="text-align: center;">Login</h3>
+            <form [formGroup]="loginForm" (ngSubmit)="onLoginSubmit()">
+              <div>
+                <label for="email">Email:</label>
+                <input 
+                class="input"
+                  type="email" 
+                  id="email" 
+                  formControlName="email" 
+                  required>
+                  <div class="error" *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched ">
+                    <div *ngIf="loginForm.get('email')?.errors?.['required']">Email is required</div>
+                    <div *ngIf="loginForm.get('email')?.errors?.['email']">wrong email format</div>
+                </div>
+              </div>
+          
+              <div>
+                <label for="password">Password:</label>
+                <input 
+                class="input"
+                  type="password" 
+                  id="password" 
+                  formControlName="password" 
+                  minlength="8" 
+                  required>
+                  <div class="error" *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched ">
+                    <div *ngIf="loginForm.get('password')?.errors?.['required']">Password is required</div>
+                    <div *ngIf="loginForm.get('password')?.errors?.['minlength']">Wrong format of password</div>
+                    
+                </div>
+              </div>
+          
+              <button type="submit" [disabled]="loginForm.invalid" [disabled]="isLockedOut" >Login</button>
+          
+              <p *ngIf="isLockedOut" style="color: red;">
+                Too many failed attempts. Please try again in {{ lockoutTime }} seconds.
+              </p>
+            </form> </mat-tab>
+
+            
+        <mat-tab label="Sign Up">
+            <form [formGroup]="adminForm" (ngSubmit)="onSubmit()">
+                <h2 style="text-align: center;">Signup</h2>         
+                <label for="name">Full Name:</label>
+                <input class="input" type="text" id="name" formControlName="name" />
+                <div class="error" *ngIf="adminForm.get('name')?.invalid && adminForm.get('name')?.touched">
+                  <small *ngIf="adminForm.get('name')?.errors?.['required']">Name is required.</small>
+                  <small *ngIf="adminForm.get('name')?.errors?.['pattern']">Only alphabets are allowed.</small>
+                </div>
+              
+                <label for="age">Choose an age:</label>
+                <input class="input" type="number" id="age" formControlName="age" />
+                <div class="error" *ngIf="adminForm.get('age')?.invalid && adminForm.get('age')?.touched">
+                  <small *ngIf="adminForm.get('age')?.errors?.['required']">Age is required.</small>
+                  <small *ngIf="adminForm.get('age')?.errors?.['min']">Age must be a positive number.</small>
+                </div>
+              
+                <label for="phone">Phone Number:</label>
+                <input class="input" type="tel" id="phone" formControlName="phone" />
+                <div class="error" *ngIf="adminForm.get('phone')?.invalid && adminForm.get('phone')?.touched">
+                  <small *ngIf="adminForm.get('phone')?.errors?.['required']">Phone number is required.</small>
+                  <small *ngIf="adminForm.get('phone')?.errors?.['pattern']">Enter a valid 10-digit phone number.</small>
+                </div>
+              
+                <label for="email">Email Address:</label>
+                <input class="input" type="email" id="email" formControlName="email" />
+                <div class="error" *ngIf="adminForm.get('email')?.invalid && adminForm.get('email')?.touched">
+                  <small *ngIf="adminForm.get('email')?.errors?.['required']">Email is required.</small>
+                  <small *ngIf="adminForm.get('email')?.errors?.['email']">Enter a valid email address.</small>
+                </div>
+              
+                <label for="password">Password:</label>
+                <input class="input" type="password" id="password" formControlName="password" />
+                <div class="error" *ngIf="adminForm.get('password')?.invalid && adminForm.get('password')?.touched">
+                  <small *ngIf="adminForm.get('password')?.errors?.['required']">Password is required.</small>
+                  <small *ngIf="adminForm.get('password')?.errors?.['minLength']">Password must be at least 6 characters long.</small>
+                </div>
+              
+                <button type="submit" [disabled]="adminForm.invalid">Sign UP!!</button>
+                <br />
+                
+              
+              </form>
+            
+        </mat-tab>
+        
+      </mat-tab-group>
+
+      <hr>
+      
+    
+  </div>
+  
+  
+
+   

@@ -1,0 +1,68 @@
+<app-navbar></app-navbar>
+
+<div class="main-container">
+    <div class="match-details-container">
+        <h1 class="match-name">{{ matchName }}</h1>
+      
+        <mat-tab-group style="text-align: justify;" mat-align-tabs="start">
+            <mat-tab  label="{{ team1Name }}">
+                <div class="expansionPanel">    
+                    <mat-accordion>
+                
+                        <mat-expansion-panel class="exp" *ngFor="let player of team1players">
+                            <mat-expansion-panel-header>
+                              <mat-panel-title>{{ player.playerName }}</mat-panel-title>
+                              <mat-panel-description>
+                                {{player.teamName }} 
+                              </mat-panel-description>
+                            </mat-expansion-panel-header>
+                            <p>Age: {{ player.playerAge }}</p>
+                            <p>Phone: {{ player.phoneNo }}</p>
+                            <div style="display: flex;justify-content: end;">
+                                
+                                <button mat-button matTooltip="Update Match" (click)="updatePlayer(player.id)"
+                                ><mat-icon style="color: red;">update</mat-icon></button>
+                                <button mat-button matTooltip="Delete Match" (click)="deletePlayer(player.id)"
+                                ><mat-icon style="color: red;">delete</mat-icon></button>
+                            </div>
+                            
+                          </mat-expansion-panel>
+                          
+                    </mat-accordion>
+                
+                </div>
+            </mat-tab>
+            <mat-tab  label="{{ team2Name }}"><div class="expansionPanel">    
+                <mat-accordion>
+            
+                    <mat-expansion-panel class="exp" *ngFor="let player of team2players">
+                        <mat-expansion-panel-header>
+                          <mat-panel-title>{{ player.playerName }}</mat-panel-title>
+                          <mat-panel-description>
+                            {{player.teamName }} 
+                          </mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <p>Age: {{ player.playerAge }}</p>
+                        <p>Phone: {{ player.phoneNo }}</p>
+                        <div style="display: flex;justify-content: end;">
+                            
+                            <button mat-button matTooltip="Update Match" (click)="updatePlayer(player.id)"
+                            ><mat-icon style="color: red;">update</mat-icon></button>
+                            <button mat-button matTooltip="Delete Match" (click)="deletePlayer(player.id)"
+                            ><mat-icon style="color: red;">delete</mat-icon></button>
+                        </div>
+                        
+                      </mat-expansion-panel>
+                      
+                </mat-accordion>
+            
+            </div>
+        </mat-tab>
+        </mat-tab-group>
+       
+        
+        
+    </div>
+</div>
+
+  

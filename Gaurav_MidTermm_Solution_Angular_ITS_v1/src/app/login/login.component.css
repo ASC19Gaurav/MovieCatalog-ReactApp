@@ -1,0 +1,56 @@
+a{
+    cursor: pointer;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    box-shadow: #333;
+    background: rgba(255, 255, 255,0.4);
+    margin-top: 40px;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    
+    color: #000000;
+}
+
+label {
+    display: flex;
+    margin: 10px 0 5px;
+}
+
+button {
+    background-color: #28a745;
+    margin-top: 5%;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  background-color:#e7f1ff;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    text-decoration:solid;
+  }

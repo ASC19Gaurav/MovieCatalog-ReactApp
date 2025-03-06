@@ -1,0 +1,21 @@
+<!-- Alternative -->
+<!-- getLoadingClass() can return the name of the class-->
+<!-- [ngClass]="getLoadingClass()" -->
+<!-- Exercise: Explore ngStyle -->
+<div
+  class="text-center"
+  [ngClass]="{
+  'text-primary': variant === 'primary',
+  'text-secondary': variant === 'secondary',
+  'text-danger': variant === 'danger',
+  'text-success': variant === 'success',
+  'text-warning': variant === 'warning',
+  'text-info': variant === 'info',
+  'text-light': variant === 'light',
+  'text-dark': variant === 'dark',
+}"
+>
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>

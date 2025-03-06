@@ -1,0 +1,51 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: rgba(59, 59, 59, 0.7);
+    color: white;
+}
+
+
+
+tr {
+    background-color: rgba(255, 255, 255, 0.849);
+    color: black;
+}
+
+#dynamicrow {
+    transition: background-color 0.3s;
+}
+
+
+button {
+    background-color: #28a745;
+    margin-top: 5%;
+    color: white;
+    padding: 10px 15px;
+    margin: auto;
+    margin-right: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.search{
+    
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

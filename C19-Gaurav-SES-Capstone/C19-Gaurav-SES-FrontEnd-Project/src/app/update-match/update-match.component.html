@@ -1,0 +1,68 @@
+<app-navbar>  
+</app-navbar>
+<div class="match-registration-form">
+    <h1 style="display: flex;justify-content: center;text-align: center;">Match Updation</h1>
+    <form [formGroup]="matchUpdateForm" (ngSubmit)="onSubmit()">
+      
+     
+  
+       
+      <div>
+        <label for="matchName">Match Name:</label>
+        <input id="matchName" formControlName="matchName" type="text" />
+        <div *ngIf="matchUpdateForm.get('matchName')?.touched && matchUpdateForm.get('matchName')?.invalid">
+          <small *ngIf="matchUpdateForm.get('matchName')?.errors?.['required']">Match Name is required.</small>
+        </div>
+      </div>
+  
+      
+      <div>
+        <label for="matchDate">Match Date:</label>
+        <input id="matchDate" formControlName="matchDate" type="date" />
+        <div *ngIf="matchUpdateForm.get('matchDate')?.touched && matchUpdateForm.get('matchDate')?.invalid">
+          <small *ngIf="matchUpdateForm.get('matchDate')?.errors?.['required']">Match Date is required.</small>
+        </div>
+      </div>
+  
+      
+      <div>
+        <label for="matchLocation">Match Location:</label>
+        <input id="matchLocation" formControlName="matchLocation" type="text" />
+        <div *ngIf="matchUpdateForm.get('matchLocation')?.touched && matchUpdateForm.get('matchLocation')?.invalid">
+          <small *ngIf="matchUpdateForm.get('matchLocation')?.errors?.['required']">Match Location is required.</small>
+        </div>
+      </div>
+  
+      
+      <div>
+        <label for="team1Name">Team 1 Name:</label>
+        <input id="team1Name" formControlName="team1Name" type="text" />
+        <div *ngIf="matchUpdateForm.get('team1Name')?.touched && matchUpdateForm.get('team1Name')?.invalid">
+          <small *ngIf="matchUpdateForm.get('team1Name')?.errors?.['required']">Team 1 Name is required.</small>
+        </div>
+      </div>
+  
+      
+      <div>
+        <label for="team2Name">Team 2 Name:</label>
+        <input id="team2Name" formControlName="team2Name" type="text" />
+        <div *ngIf="matchUpdateForm.get('team2Name')?.touched && matchUpdateForm.get('team2Name')?.invalid">
+          <small *ngIf="matchUpdateForm.get('team2Name')?.errors?.['required']">Team 2 Name is required.</small>
+        </div>
+      </div>
+  
+      
+      <div>
+        <label for="tournamentName">Tournament Name:</label>
+        <input id="tournamentName" formControlName="tournamentName" type="text" />
+        <div *ngIf="matchUpdateForm.get('tournamentName')?.touched && matchUpdateForm.get('tournamentName')?.invalid">
+          <small *ngIf="matchUpdateForm.get('tournamentName')?.errors?.['required']">Tournament Name is required.</small>
+        </div>
+      </div>
+  
+      
+      <button type="submit" >Update Match</button>
+    </form>
+  
+  </div>
+  

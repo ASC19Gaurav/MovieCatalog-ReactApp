@@ -1,0 +1,77 @@
+{
+  "issues": [],
+  "adminusers": [
+    {
+      "id": "c911",
+      "name": "Gaurav",
+      "age": 21,
+      "phone": 9812238475,
+      "email": "gaurav12@singh.com",
+      "password": "Gaurav09"
+    },
+    {
+      "id": "8883",
+      "name": "Gaurav",
+      "age": 21,
+      "phone": 9812238475,
+      "email": "gaurav112@singh.com",
+      "password": "Gaurav098"
+    },
+    {
+      "id": "ab23",
+      "name": "Gaurav",
+      "age": 21,
+      "phone": 9812238475,
+      "email": "gaurav@singh.com",
+      "password": "Gaurav2"
+    },
+    {
+      "id": "0e38",
+      "name": "Gaurav",
+      "age": 21,
+      "phone": 9812238475,
+      "email": "gaurav@singh.com",
+      "password": "Gaurav2"
+    },
+    {
+      "id": "9d34",
+      "name": "Gaurav",
+      "age": 21,
+      "phone": 9812238475,
+      "email": "gaurav11@singh.com",
+      "password": "rohit123"
+    },
+    {
+      "id": "8d99",
+      "name": "harsh",
+      "age": 21,
+      "phone": 9812238475,
+      "email": "harsh@singh.com",
+      "password": "harsh123"
+    },
+    {
+      "id": "c63d",
+      "name": "Gaurav",
+      "age": 21,
+      "phone": 9812238475,
+      "email": "gaurav99@singh.com",
+      "password": "hello"
+    },
+    {
+      "id": "2c22",
+      "name": "Gaurav",
+      "age": 21,
+      "phone": 9812238475,
+      "email": "gaurav@singh.com",
+      "password": "password"
+    },
+    {
+      "id": "57b7",
+      "name": "Subbu",
+      "age": 28,
+      "phone": 9812238475,
+      "email": "subbu@gmail.com",
+      "password": "subbu12345"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+a{
+    cursor: pointer;
+}
+
+.container {
+    
+    width: 400px;
+    padding: 20px;
+    height: fit-content; 
+    margin-left: 60%;
+    margin-top: 100px;
+    
+    
+    border: #e7f1ff solid;
+    border-radius: 10px;
+    background: rgba(255, 255, 255,0.3);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.mat-tab-label {
+    font-size: 18px;
+    color: #0288d1; /* Default tab color */
+    text-transform: uppercase;
+  }
+  
+  .mat-tab-label-active {
+    color: #ff6f00; /* Active tab color */
+    border-bottom: 2px solid #ff6f00; /* Optional underline */
+  }
+  
+  .mat-tab-label:hover {
+    color: #01579b; /* Hover color */
+  }
+  
+
+h2 {
+    text-align: center;
+    
+    color: #000000;
+}
+
+label {
+    
+    display: flex;
+    margin: 10px 0 5px;
+}
+
+button {
+    background-color: #28a745;
+    margin-top: 5%;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  background-color:#e7f1ff;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    text-decoration:solid;
+  }
+
+  .input{
+    width: 200px;
+    height: 20px;
+
+  }
+  

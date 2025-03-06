@@ -1,0 +1,17 @@
+
+.example-spacer{
+    flex: 1 1 auto;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    text-decoration: underline red;
+    cursor: pointer;
+    }

@@ -1,0 +1,521 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\dto\\meetingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:dto\\meetingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\dto\\addmeetingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:dto\\addmeetingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\dto\\meetingattendeesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:dto\\meetingattendeesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\model\\domain\\meeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:model\\domain\\meeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\meetingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:meetingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Migrations\\20250117102149_Meeting Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250117102149_Meeting Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Migrations\\20250117094836_Meeting Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250117094836_Meeting Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\repository\\sqlmeetingattendeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:repository\\sqlmeetingattendeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\repository\\sqlmeetingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:repository\\sqlmeetingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\repository\\imeetingattendeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:repository\\imeetingattendeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\dto\\addattendeesrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:dto\\addattendeesrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\dto\\adminuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:dto\\adminuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\controllers\\adminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:controllers\\adminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\model\\domain\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:model\\domain\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\dto\\addadminuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:dto\\addadminuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\model\\domain\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:model\\domain\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\model\\domain\\meetingattendees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:model\\domain\\meetingattendees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\repository\\sqladminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:repository\\sqladminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\repository\\imeetingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:repository\\imeetingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\repository\\iadminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:repository\\iadminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\migrations\\20250117123746_meeting table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:migrations\\20250117123746_meeting table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|c:\\users\\gaurav.tsingh\\angularlab\\asc19gauravgitrepo\\meetingapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF153C8-5E2F-4877-9694-9CAFDDC2FF48}|MeetingApi.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MeetingController.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Controllers\\MeetingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MeetingController.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Controllers\\MeetingController.cs",
+              "RelativeToolTip": "Controllers\\MeetingController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:30:04.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MeetingAttendeesDto.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\MeetingAttendeesDto.cs",
+              "RelativeDocumentMoniker": "DTO\\MeetingAttendeesDto.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\MeetingAttendeesDto.cs",
+              "RelativeToolTip": "DTO\\MeetingAttendeesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:34:14.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddMeetingRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\AddMeetingRequestDto.cs",
+              "RelativeDocumentMoniker": "DTO\\AddMeetingRequestDto.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\AddMeetingRequestDto.cs",
+              "RelativeToolTip": "DTO\\AddMeetingRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:10:36.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeetingDto.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\MeetingDto.cs",
+              "RelativeDocumentMoniker": "DTO\\MeetingDto.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\MeetingDto.cs",
+              "RelativeToolTip": "DTO\\MeetingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:23:33.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Meeting.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Model\\Domain\\Meeting.cs",
+              "RelativeDocumentMoniker": "Model\\Domain\\Meeting.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Model\\Domain\\Meeting.cs",
+              "RelativeToolTip": "Model\\Domain\\Meeting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:19:58.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-17T09:35:17.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MeetingApi.csproj",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\MeetingApi.csproj",
+              "RelativeDocumentMoniker": "MeetingApi.csproj",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\MeetingApi.csproj",
+              "RelativeToolTip": "MeetingApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-17T09:18:45.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T06:25:32.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAWwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:35:33.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SqlMeetingAttendeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Repository\\SqlMeetingAttendeeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SqlMeetingAttendeeRepository.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Repository\\SqlMeetingAttendeeRepository.cs",
+              "RelativeToolTip": "Repository\\SqlMeetingAttendeeRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:39:11.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SqlMeetingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Repository\\SqlMeetingRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SqlMeetingRepository.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Repository\\SqlMeetingRepository.cs",
+              "RelativeToolTip": "Repository\\SqlMeetingRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:38:40.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IMeetingAttendeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Repository\\IMeetingAttendeeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IMeetingAttendeeRepository.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Repository\\IMeetingAttendeeRepository.cs",
+              "RelativeToolTip": "Repository\\IMeetingAttendeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:25:45.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:31:52.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddAttendeesRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\AddAttendeesRequestDto.cs",
+              "RelativeDocumentMoniker": "DTO\\AddAttendeesRequestDto.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\AddAttendeesRequestDto.cs",
+              "RelativeToolTip": "DTO\\AddAttendeesRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:22:37.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\AdminUserDto.cs",
+              "RelativeDocumentMoniker": "DTO\\AdminUserDto.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\AdminUserDto.cs",
+              "RelativeToolTip": "DTO\\AdminUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:23:02.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AutomapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Mappings\\AutomapperProfiles.cs",
+              "RelativeDocumentMoniker": "Mappings\\AutomapperProfiles.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Mappings\\AutomapperProfiles.cs",
+              "RelativeToolTip": "Mappings\\AutomapperProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:30:55.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminUsersController.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Controllers\\AdminUsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminUsersController.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Controllers\\AdminUsersController.cs",
+              "RelativeToolTip": "Controllers\\AdminUsersController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:28:31.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTO\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\LoginDto.cs",
+              "RelativeToolTip": "DTO\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T06:37:59.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminUser.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Model\\Domain\\AdminUser.cs",
+              "RelativeDocumentMoniker": "Model\\Domain\\AdminUser.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Model\\Domain\\AdminUser.cs",
+              "RelativeToolTip": "Model\\Domain\\AdminUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:19:43.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddAdminUserRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\AddAdminUserRequestDto.cs",
+              "RelativeDocumentMoniker": "DTO\\AddAdminUserRequestDto.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\DTO\\AddAdminUserRequestDto.cs",
+              "RelativeToolTip": "DTO\\AddAdminUserRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:21:59.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Model\\Domain\\Login.cs",
+              "RelativeDocumentMoniker": "Model\\Domain\\Login.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Model\\Domain\\Login.cs",
+              "RelativeToolTip": "Model\\Domain\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T23:27:56.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MeetingAttendees.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Model\\Domain\\MeetingAttendees.cs",
+              "RelativeDocumentMoniker": "Model\\Domain\\MeetingAttendees.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Model\\Domain\\MeetingAttendees.cs",
+              "RelativeToolTip": "Model\\Domain\\MeetingAttendees.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:20:22.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SqlAdminUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Repository\\SqlAdminUserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SqlAdminUserRepository.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Repository\\SqlAdminUserRepository.cs",
+              "RelativeToolTip": "Repository\\SqlAdminUserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:38:04.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Services\\JwtService.cs",
+              "RelativeToolTip": "Services\\JwtService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T23:13:20.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-17T09:35:15.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IMeetingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Repository\\IMeetingRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IMeetingRepository.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Repository\\IMeetingRepository.cs",
+              "RelativeToolTip": "Repository\\IMeetingRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:25:19.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IAdminUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Repository\\IAdminUserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IAdminUserRepository.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Repository\\IAdminUserRepository.cs",
+              "RelativeToolTip": "Repository\\IAdminUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:24:42.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250117123746_Meeting Table.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Migrations\\20250117123746_Meeting Table.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250117123746_Meeting Table.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Migrations\\20250117123746_Meeting Table.cs",
+              "RelativeToolTip": "Migrations\\20250117123746_Meeting Table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:37:47.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:32:57.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250117102149_Meeting Table.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Migrations\\20250117102149_Meeting Table.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250117102149_Meeting Table.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Migrations\\20250117102149_Meeting Table.cs",
+              "RelativeToolTip": "Migrations\\20250117102149_Meeting Table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:21:49.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250117094836_Meeting Table.cs",
+              "DocumentMoniker": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Migrations\\20250117094836_Meeting Table.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250117094836_Meeting Table.cs",
+              "ToolTip": "C:\\Users\\gaurav.tsingh\\AngularLab\\ASC19Gauravgitrepo\\MeetingApi\\Migrations\\20250117094836_Meeting Table.cs",
+              "RelativeToolTip": "Migrations\\20250117094836_Meeting Table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:48:36.835Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

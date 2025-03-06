@@ -1,0 +1,40 @@
+<div class="home">
+<app-navbar>  
+</app-navbar>
+
+<div>
+    <h1 class="header">Tournaments 
+        <span class="example-spacer">  </span>
+    
+    </h1>
+    <button class="home-button" [routerLink]="'/matchregistration'">
+        Add Tournament
+    </button>
+
+    <div class="cards-container">
+      <mat-card *ngFor="let tournament of matchess" class="example-card" appearance="outlined">
+        <mat-card-header>
+          <mat-card-title>{{ tournament }}</mat-card-title>
+        </mat-card-header>
+        <div class="image-container">
+          <img style="height: 238px; width: 181px;" matCardImage src="tournament.jpg" alt="{{ tournament }}">
+        </div>
+        <mat-card-content>
+          <p>
+            Tournament Description for {{ tournament }}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>LIKE</button>
+          <button mat-button [routerLink]="['/matches', tournament]">VIEW MATCHES</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    
+    
+    
+</div>
+
+
+</div>

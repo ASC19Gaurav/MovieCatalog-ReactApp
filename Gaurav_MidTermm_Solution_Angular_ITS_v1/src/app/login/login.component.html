@@ -1,0 +1,40 @@
+<h2 style="display: flex;justify-content: center;color: aliceblue;">ISSUE TRACKING SYSTEM</h2>
+<div class="container">
+    <h2 style="text-align: center;">Login</h2>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div>
+        <label for="email">Email:</label>
+        <input 
+          type="email" 
+          id="email" 
+          formControlName="email" 
+          required>
+          <div class="error" *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched ">
+            <div *ngIf="loginForm.get('email')?.errors?.['required']">Email is required</div>
+            <div *ngIf="loginForm.get('email')?.errors?.['email']">wrong email format</div>
+        </div>
+      </div>
+  
+      <div>
+        <label for="password">Password:</label>
+        <input 
+          type="password" 
+          id="password" 
+          formControlName="password" 
+          minlength="8" 
+          required>
+          <div class="error" *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched ">
+            <div *ngIf="loginForm.get('password')?.errors?.['required']">Password is required</div>
+            <div *ngIf="loginForm.get('password')?.errors?.['minlength']">Password should be minnimum 8 digit</div>
+            
+        </div>
+      </div>
+  
+      <button type="submit" [disabled]="loginForm.invalid">Login</button>
+  
+      <p>
+        Don't have an account? <a routerLink="/signup">Sign Up</a>
+      </p>
+    </form>
+  </div>
+  

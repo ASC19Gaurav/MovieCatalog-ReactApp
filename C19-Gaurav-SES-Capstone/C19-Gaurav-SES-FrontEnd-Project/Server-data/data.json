@@ -1,0 +1,59 @@
+{
+  "adminusers": [
+    {
+      "id": "A0001",
+      "name": "Gaurav",
+      "age": 22,
+      "phone": "9045737106",
+      "email": "gaurav@singh.com",
+      "password": "88888888"
+    },
+    {
+      "id": "A0002",
+      "name": "Shubham",
+      "age": 22,
+      "phone": "9989898988",
+      "email": "Gaurav@singh.com",
+      "password": "88888888"
+    }
+  ],
+  "matches": [
+    {
+      "id": "22f5",
+      "matchName": "team1 vs team2",
+      "matchDate": "2024-12-02",
+      "matchLocation": "Banglore",
+      "team1Name": "banglore",
+      "team2Name": "hyderabad",
+      "tournamentName": "karnatak",
+      "Id": "M0001"
+    },
+    {
+      "id": "M0002",
+      "matchName": "team1 vs team3",
+      "matchDate": "2024-12-09",
+      "matchLocation": "ascsa",
+      "team1Name": "sac",
+      "team2Name": "sca",
+      "tournamentName": "ascas"
+    },
+    {
+      "id": "M0009",
+      "matchName": "team1 vs team2",
+      "matchDate": "2024-12-07",
+      "matchLocation": "asdasd",
+      "team1Name": "qcwscwc",
+      "team2Name": "ascsa",
+      "tournamentName": "eqwed"
+    },
+    {
+      "id": "M0010",
+      "matchName": "team1 vs team",
+      "matchDate": "2024-12-21",
+      "matchLocation": "Banglore",
+      "team1Name": "banglore",
+      "team2Name": "hyderabad",
+      "tournamentName": "karnataka football league"
+    }
+  ]
+}

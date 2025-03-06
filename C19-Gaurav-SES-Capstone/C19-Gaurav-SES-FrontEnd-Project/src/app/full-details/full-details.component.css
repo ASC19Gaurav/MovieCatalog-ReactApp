@@ -1,0 +1,67 @@
+
+  
+  /* Main container for match details */
+  .main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.exp{
+    
+    margin-bottom: 5px;
+}
+  
+  .match-details-container {
+    background-color: rgba(255, 255, 255, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    padding: 20px;
+  }
+  
+  /* Match name styling (centered at the top) */
+  .match-name {
+    font-size: 32px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Container for team names */
+  .teams-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Common team styling */
+  .team {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    display: inline-block;
+    width: 45%;
+  }
+  
+  /* Team 1 (left side) styling */
+  .team-left {
+    background-color: #ffdd57;
+  }
+  
+  /* Team 2 (right side) styling */
+  .team-right {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Optional hover effect for teams */
+  .team:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  

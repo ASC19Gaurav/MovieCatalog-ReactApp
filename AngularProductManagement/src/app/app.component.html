@@ -1,0 +1,15 @@
+<form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" ngModel required>
+  </div>
+  <div>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" ngModel required>
+  </div>
+  <div>
+    <label for="salary">Salary:</label>
+    <input type="number" id="salary" name="salary" ngModel required>
+  </div>
+  <button type="submit" [disabled]="userForm.invalid">Add User</button>
+</form>

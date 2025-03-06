@@ -1,0 +1,46 @@
+<app-navbar> </app-navbar>
+<div class="container">
+    <h2>Admin Users</h2>
+    <button mat-raised-button style="color: aliceblue;background-color: rgba(0, 81, 255, 0.753);" class="crud" (click)="toggleCheckboxes()">Delete</button>
+    <button mat-button class="crud" *ngIf="showCheckboxes" (click)="openBottomSheet()" 
+style="background-color: rgba(255, 25, 71, 0.795);color: aliceblue;">Confirm Delete</button>
+  
+    <div *ngIf="isLoading" class="loading">
+      <p>Loading admin users...</p>
+    </div>
+  
+    <div *ngIf="errorMessage" class="error">
+      <p>{{ errorMessage }}</p>
+    </div>
+  
+    <table *ngIf="!isLoading && adminUsers.length > 0" class="table table-striped">
+      <thead>
+        <tr>
+            <th *ngIf="showCheckboxes">Select</th>
+          <th>#</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Phone</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let admin of adminUsers; let i = index">
+            <td *ngIf="showCheckboxes">
+                <input type="checkbox" #checkboxRef (change)="onSelected(admin.id, checkboxRef.checked)">
+        
+              </td>
+          <td>{{ i + 1 }}</td>
+          <td>{{ admin.name }}</td>
+          <td>{{ admin.age }}</td>
+          <td>{{ admin.phone }}</td>
+          <td>{{ admin.email }}</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <div *ngIf="!isLoading && adminUsers.length === 0" class="no-data">
+      <p>No admin users found.</p>
+    </div>
+  </div>
+  
